@@ -34,7 +34,7 @@ label = y_test[image_index][0]
 
 # Afficher l'image sélectionnée
 st.write(f"Classe réelle : {class_names[label]}")
-st.image(image, channels="RGB", use_column_width=True)
+st.image(image, channels="RGB", width=500)
 
 # Prédire la classe de l'image avec le modèle pré-entraîné
 st.write("**Résultat de la Classification :**")
